@@ -58,7 +58,3 @@ if(window.location.pathname == "/login" || window.location.pathname == "/") {
     error();
 
  }
-
-
-
-
