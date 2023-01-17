@@ -1,3 +1,5 @@
+@import "..\..\common\common.less";
+
 html, body {
     height: 100%;
     width: 100%;
@@ -41,7 +43,7 @@ html, body {
     display: flex;
     flex-direction: row;
     border-style: solid;
-    border-color: rgb(183, 241, 241);
+    border-color: @border-color;
     margin: 2px;
 }
 
@@ -76,7 +78,7 @@ html, body {
     width: 70%;
     background: rgb(228, 228, 233);
     border-style: solid;
-    border-color: rgb(152, 179, 179);
+    border-color: @border-color;
 }
 #selected_user {
     text-align:center;
