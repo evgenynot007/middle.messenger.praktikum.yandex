@@ -5,14 +5,8 @@
   "source": "index.html",
   "scripts": {
     "start": "node app.js",
-    "build": "parcel index.html",
+    "build": "parcel build index.html",
     "watch": "parcel watch"
-  },
-  "devDependencies": {
-    "@parcel/transformer-inline-string": ">=2.4.1",
-    "@parcel/transformer-less": ">=2.8.2",
-    "less": ">=4.1.3",
-    "parcel": ">=2.4.1"
   },
   "repository": {
     "type": "git",
@@ -25,10 +19,17 @@
   },
   "homepage": "https://github.com/evgenynot007/chat#readme",
   "dependencies": {
-    "express": ">=4.18.2",
-    "handlebars": ">=4.7.7"
+    "express": "4.18.2",
+    "handlebars": "4.7.7"
   },
-  "engines" : { "node" : ">=12" }
-
-  
+  "engines": {
+    "node": ">12.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "2.8.3",
+    "@parcel/transformer-less": "2.8.3",
+    "less": "4.1.3",
+    "parcel": "2.8.3"
+  }
 }
